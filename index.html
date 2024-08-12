@@ -4,14 +4,126 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="style/style.css"></script>
+
+
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
+
+
 </head>
-<body>
-    <h1>
-        <ul>1</ul>
-        <ul>2</ul>
-        <ul>3</ul>
-        <ul>4</ul>
-        <ul>5</ul>
-    </h1>
+<body class="max-w-7xl	 mx-auto">
+    <div class="navbar bg-base-100">
+  <div class="navbar-start">
+    <div class="dropdown">
+      <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="h-5 w-5"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor">
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M4 6h16M4 12h8m-8 6h16" />
+        </svg>
+      </div>
+      <ul
+        tabindex="0"
+        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+        <li><a>Home
+           </a></li>
+        <li>
+          <a> About
+           </a>
+         
+        </li>
+        <li><a>Pages
+           </a></li>
+           <li><a> Blog
+           </a></li>
+           <li><a href=""> Contact</a></li>
+      </ul>
+    </div>
+    <a class="text-xl">Hockey’s</a>
+  </div>
+  <div class="navbar-center hidden lg:flex">
+    <ul class="menu menu-horizontal px-1">
+      <li><a class="text-orange-500">Home
+        </a></li>
+      <li>
+       <a> About</a>
+      </li>
+      <li><a href="">Pages</a></li>
+      <li><a>Blog</a></li>
+      <li><a>Contact</a></li>
+     
+    </ul>
+  </div>
+  <div class="navbar-end">
+    <a class="btn bg-orange-600 text-white">Get Ticket</a>
+  </div>
+</div>
+
+
+
+
+
+<!--banner part-->
+
+<div
+  class="hero  container       lg:h-[500px] w-[1260px] mx-auto rounded-lg"
+  style="background-image: url(Images/1.png);">
+  <div class=""></div>
+  
+  <div class="hero-content text-neutral-content text-center">
+
+     
+
+      
+
+
+        <div class="lg:flex border-2 border-red-700 w-[1200px]   h-[330px] mx-auto justify-between items-end align-bottom">
+            <div class="flex mt-5">
+                <a href="#slide4" class="btn btn-circle">❮</a>
+                <a href="#slide2" class="btn btn-circle">❯</a>
+              </div> 
+        
+        
+              <div class="border-2 border-red-600 w-[550px] items-end text-start bg-black	text-white p-5 rounded-lg">
+        
+                <h3 class="">Meet all the heroes from the field</h3>
+                <p class="text-slate-300">Dit amet consectetur. Condimentum dignissim adipiscing aliquam 
+                    <br>
+                    turpis placerat dolor. Purus urna in sit nullam proin. </p>
+            </div>
+           </div>
+
+
+     
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+   
 </body>
 </html>
